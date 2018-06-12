@@ -34,7 +34,7 @@ class LRUCache(object):
                 item = item.next
             return size
 
-    def save_and_return(self, key):
+    def save_page(self, key):
         if self.cache_table.get(key, None) != None:
             # already in cache
             desired_node = self.cache_table[key]
@@ -79,7 +79,7 @@ class LRUCache(object):
         new_root.next.previous = new_root.previous
         new_root.previous.next = new_root.next
 
-    def get_cache_list(self):
+    def get_cached_results(self):
         l = []
         item = self.cache_list.root
         if item == None:
@@ -93,9 +93,9 @@ class LRUCache(object):
 if __name__ == "__main__":
     pages = [2, 6, 2, 1, 6, 4]
     print "Pages: %s"%pages
-    x = LRUCache(maxsize=3)
-    print x.get_cache_list()
+    cache_obj = LRUCache(maxsize=3)
+    print cache_obj.get_cached_results()
     for page in pages:
-        prev = x.get_cache_list()
-        x.save_and_return(page)
-        print "curr: %s, add %s, new: %s"%(prev, page, x.get_cache_list())
+        prev = cache_obj.get_cached_results()
+        cache_obj.save_page(page)
+        print "curr: %s, add %s, new: %s"%(prev, page, cache_obj.get_cached_results())
