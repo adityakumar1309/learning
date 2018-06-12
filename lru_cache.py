@@ -81,9 +81,6 @@ if __name__ == "__main__":
     cache_obj = LRUCache(maxsize=3)
     print cache_obj.get_cached_results()
     for page in pages:
-        if page == 4:
-            pass
-            #import pdb;pdb.set_trace()
         prev = cache_obj.get_cached_results()
         cache_obj.save_page(page)
         print "curr: %s, add %s, new: %s"%(prev, page, cache_obj.get_cached_results())
