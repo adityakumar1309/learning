@@ -1,5 +1,3 @@
-#from dll import DoubleLinkedList, Node
-
 class Node:
     def __init__(self, value, prev=None, next=None):
         self.value = value
