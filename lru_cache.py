@@ -8,14 +8,14 @@ class DoubleLinkedList:
     def __init__(self):
         self.root = None
 
-class LRUCache(object):
-    def __init__(self, maxsize=5):
+class LRUCache:
+    def __init__(self, maxsize):
         self.cache_list = DoubleLinkedList()
         self.cache_table = {}
         self.maxsize = maxsize
 
     def save_page(self, key):
-        if self.cache_table.get(key, None) != None:
+        if key in self.cache_table:
             # already in cache
             desired_node = self.cache_table[key]
         else:
@@ -26,10 +26,10 @@ class LRUCache(object):
                 self.delete_oldest()
             self.cache_table[key] = desired_node
         self.mark_most_recent(desired_node)
-        return desired_node.value
 
     def delete_oldest(self):
         oldest = self.cache_list.root.prev
+        self.cache_table.pop(oldest.value)
         oldest.prev.nxt = self.cache_list.root
         self.cache_list.root.prev = oldest.prev
         oldest = None
@@ -78,9 +78,11 @@ class LRUCache(object):
 if __name__ == "__main__":
     pages = [2, 6, 2, 1, 6, 4, 4, 3]
     print "Pages: %s"%pages
-    cache_obj = LRUCache(maxsize=3)
+    maxsize = 3
+    cache_obj = LRUCache(maxsize)
     print cache_obj.get_cached_results()
     for page in pages:
+        #print "Len of hash map: %s"%(len(cache_obj.cache_table))
         prev = cache_obj.get_cached_results()
         cache_obj.save_page(page)
         print "curr: %s, add %s, new: %s"%(prev, page, cache_obj.get_cached_results())
