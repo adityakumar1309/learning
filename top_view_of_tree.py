@@ -1,9 +1,3 @@
-# O(n) solution to find LCS of two given values n1 and n2
- 
-# A binary tree node
-# Python program to find the diameter of binary tree
- 
-# A binary tree node
 class Node:
  
     # Constructor to create a new node
