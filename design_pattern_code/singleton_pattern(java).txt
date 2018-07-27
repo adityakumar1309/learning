@@ -5,7 +5,7 @@ Let’s see various design options for implementing such a class. If you have a 
  
 
 
-## Method 1: Classic Implementation
+** Method 1: Classic Implementation **
 
 
 
