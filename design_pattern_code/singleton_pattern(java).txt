@@ -5,7 +5,7 @@ Let’s see various design options for implementing such a class. If you have a 
  
 
 
-##Method 1: Classic Implementation
+## Method 1: Classic Implementation
 
 
 
@@ -38,7 +38,7 @@ This execution sequence creates two objects for singleton. Therefore this classi
  
 
 
-##Method 2: make getInstance() synchronized
+## Method 2: make getInstance() synchronized
 
 // Thread Synchronized Java implementation of 
 // singleton design pattern
@@ -63,7 +63,7 @@ The main disadvantage of this is method is that using synchronized every time wh
  
 
 
-##Method 3: Eager Instantiation
+## Method 3: Eager Instantiation
 
 // Static initializer based Java implementation of
 // singleton design pattern
@@ -84,7 +84,7 @@ Here we have created instance of singleton in static initializer. JVM executes s
  
 
 
-##Method 4 (Best): Use “Double Checked Locking” 
+## Method 4 (Best): Use “Double Checked Locking” 
 If you notice carefully once an object is created synchronization is no longer useful because now obj will not be null and any sequence of operations will lead to consistent results.
 So we will only acquire lock on the getInstance() once, when the obj is null. This way we only synchronize the first way through, just what we want.
 
