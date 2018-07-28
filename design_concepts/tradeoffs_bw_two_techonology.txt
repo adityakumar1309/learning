@@ -33,3 +33,9 @@ Ownership------------Semaphore value can be changed by any process acquiring or 
 Categorize-----------Semaphore can be categorized into counting semaphore and binary semaphore.	Mutex is not categorized further.
 Operation------------Semaphore value is modified using wait() and signal() operation.	Mutex object is locked or unlocked by the process requesting or releasing the resource.
 Resources_Occupied---If all resources are being used, the process requesting for resource performs wait() operation and block itself till semaphore count become greater than one.	If a mutex object is already locked, the process requesting for resources waits and queued by the system till lock is released.
+
+# Observer Pattern vs Pub/Sub
+Observer pattern, the Observers are aware of the Subject, also the Subject maintains a record of the Observers. Whereas, in Publisher/Subscriber, publishers and subscribers don’t need to know each other. They simply communicate with the help of message queues or broker.
+In Publisher/Subscriber pattern, components are loosely coupled as opposed to Observer pattern.
+Observer pattern is mostly implemented in a synchronous way, i.e. the Subject calls the appropriate method of all its observers when some event occurs. The Publisher/Subscriber pattern is mostly implemented in an asynchronous way (using message queue).
+Observer pattern needs to be implemented in a single application address space. On the other hand, the Publisher/Subscriber pattern is more of a cross-application pattern.
