@@ -6,6 +6,14 @@ http://code.activestate.com/recipes/131499-observer-pattern/
 
 *TL;DR80
 Maintains a list of dependents and notifies them of any state changes.
+
+Examples :
+
+-> Splitwise group : Anyone adds or updates any entry in the group - all members of group get a notification .
+
+-> Facebook : If one follows a post , he gets added to the observers & any further comments on the same post , send a notification to all the other observers ; same as twitter or any other social media follow use case .
+
+-> Software Repository : Under the push notification model , devices are observable for the central software repository & as soon as there is new software from one of the observers , all the devices registered will be sent a push notification to check for that software.
 """
 
 from __future__ import print_function
