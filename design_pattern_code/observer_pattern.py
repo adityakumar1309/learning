@@ -9,11 +9,29 @@ Maintains a list of dependents and notifies them of any state changes.
 
 Examples :
 
--> Splitwise group : Anyone adds or updates any entry in the group - all members of group get a notification .
+1) Splitwise group : Anyone adds or updates any entry in the group - all members of group get a notification .
 
--> Facebook : If one follows a post , he gets added to the observers & any further comments on the same post , send a notification to all the other observers ; same as twitter or any other social media follow use case .
+2) Facebook : If one follows a post , he gets added to the observers & any further comments on the same post , send a notification to all the other observers ; same as twitter or any other social media follow use case .
 
--> Software Repository : Under the push notification model , devices are observable for the central software repository & as soon as there is new software from one of the observers , all the devices registered will be sent a push notification to check for that software.
+3) Software Repository : Under the push notification model , devices are observable for the central software repository & as soon as there is new software from one of the observers , all the devices registered will be sent a push notification to check for that software.
+
+4) When you subscribe to any website.
+
+You are on observer in this case who has subscribed to a website (Subject) for getting notified about its post.
+
+5) Follow feature on Quora.
+
+As I can see right now, there are 18 followers of this question. As soon as I click on Submit after writing my answer, Quora (Subject) will send a notification to all 18 followers (observers).
+
+6) Cricket Display
+
+The scoreboard display, displays the average score etc information as per the current status of the match. Whenever any score changes, the scoreboard gets refreshed. So, display board is the observer here and Subject is the panel sending the current score status to the board.
+
+7) The newspaper boy who comes at your home. Refer to this post to understand this example.
+
+8) Whatsapp Group
+
+Whenever any person sends any message in the group, all the people who are in the group get notified.
 """
 
 from __future__ import print_function
