@@ -35,7 +35,7 @@ In Publisher/Subscriber pattern, components are loosely coupled as opposed to Ob
 Observer pattern is mostly implemented in a synchronous way, i.e. the Subject calls the appropriate method of all its observers when some event occurs. The Publisher/Subscriber pattern is mostly implemented in an asynchronous way (using message queue).
 Observer pattern needs to be implemented in a single application address space. On the other hand, the Publisher/Subscriber pattern is more of a cross-application pattern.
 
-## strong consistency vs eventual consistency
+## Strong Consistency vs Eventual Consistency
 Strong consistency = It says data will get passed on to all the replicas as soon as a write request comes to one of the replicas of the database.
 But during the time these replicas are being updated with new data, response to any subsequent read/write requests by any of the replicas will get delayed as all replicas are busy in keeping each other consistent.
 As soon as they become consistent, they start to take care of the requests that have come at their door.
