@@ -1,4 +1,4 @@
-Mysql vs PostgresSql
+# Mysql vs PostgresSql
 
 •	MySQL doesn’t support CTE (very big deal!)
 •	MySQL doesn’t support window functions (another big deal)
