@@ -41,6 +41,13 @@ But during the time these replicas are being updated with new data, response to 
 As soon as they become consistent, they start to take care of the requests that have come at their door.
 eventual consistency = Eventual consistency offers low latency at the risk of returning stale data
 
+## Optimistic Locking vs Pessimist Locking
+*Optimistic Locking* is a strategy where you read a record, take note of a version number (other methods to do this involve dates, timestamps or checksums/hashes) and check that the version hasn't changed before you write the record back. When you write the record back you filter the update on the version to make sure it's atomic. (i.e. hasn't been updated between when you check the version and write the record to the disk) and update the version in one hit.
+If the record is dirty (i.e. different version to yours) you abort the transaction and the user can re-start it.
+This strategy is most applicable to high-volume systems and three-tier architectures where you do not necessarily maintain a connection to the database for your session. In this situation the client cannot actually maintain database locks as the connections are taken from a pool and you may not be using the same connection from one access to the next.
+
+*Pessimistic Locking* is when you lock the record for your exclusive use until you have finished with it. It has much better integrity than optimistic locking but requires you to be careful with your application design to avoid Deadlocks. To use pessimistic locking you need either a direct connection to the database (as would typically be the case in a two tier client server application) or an externally available transaction ID that can be used independently of the connection.
+
 ## Sticky Sesions vs Non Sticky Sessions
 -If the load balancer is instructed to use sticky sessions, all of your interactions will happen with the same physical server, even though other servers are present. Thus, your session object will be the same throughout your entire interaction with this website.
 -To summarize, In case of Sticky Sessions, all your requests will be directed to the same physical web server while in case of a non-sticky loadbalancer may choose any webserver to serve your requests.
