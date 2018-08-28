@@ -11,21 +11,21 @@ Let’s see various design options for implementing such a class. If you have a 
 // Classical Java implementation of singleton 
 // design pattern
 
-class Singleton
-{
-    private static Singleton obj;
- 
-    // private constructor to force use of
-    // getInstance() to create Singleton object
-    private Singleton() {}
- 
-    public static Singleton getInstance()
+    class Singleton
     {
-        if (obj==null)
-            obj = new Singleton();
-        return obj;
+        private static Singleton obj;
+ 
+        // private constructor to force use of
+        // getInstance() to create Singleton object
+        private Singleton() {}
+
+        public static Singleton getInstance()
+        {
+            if (obj==null)
+                obj = new Singleton();
+            return obj;
+        }
     }
-}
 Run on IDE
 Here we have declared getInstance() static so that we can call it without instantiating the class. The first time getInstance() is called it creates a new singleton object and after that it just returns the same object. Note that Singleton obj is not created until we need it and call getInstance() method. This is called lazy instantiation.
 
@@ -39,20 +39,20 @@ This execution sequence creates two objects for singleton. Therefore this classi
 // Thread Synchronized Java implementation of 
 // singleton design pattern
 
-class Singleton
-{
-    private static Singleton obj;
- 
-    private Singleton() {}
- 
-    // Only one thread can execute this at a time
-    public static synchronized Singleton getInstance()
+    class Singleton
     {
-        if (obj==null)
-            obj = new Singleton();
-        return obj;
+        private static Singleton obj;
+
+        private Singleton() {}
+
+        // Only one thread can execute this at a time
+        public static synchronized Singleton getInstance()
+        {
+            if (obj==null)
+                obj = new Singleton();
+            return obj;
+        }
     }
-}
 
 Here using synchronized makes sure that only one thread at a time can execute getInstance().
 The main disadvantage of this is method is that using synchronized every time while creating the singleton object is expensive and may decrease the performance of your program. However if performance of getInstance() is not critical for your application this method provides a clean and simple solution.
@@ -63,17 +63,17 @@ The main disadvantage of this is method is that using synchronized every time wh
 // Static initializer based Java implementation of
 // singleton design pattern
 
-class Singleton
-{
-    private static Singleton obj = new Singleton();
- 
-    private Singleton() {}
- 
-    public static Singleton getInstance()
+    class Singleton
     {
-        return obj;
+        private static Singleton obj = new Singleton();
+
+        private Singleton() {}
+
+        public static Singleton getInstance()
+        {
+            return obj;
+        }
     }
-}
 
 Here we have created instance of singleton in static initializer. JVM executes static initializer when the class is loaded and hence this is guaranteed to be thread safe. Use this method only when your singleton class is light and is used throughout the execution of your program.
 
@@ -84,27 +84,27 @@ So we will only acquire lock on the getInstance() once, when the obj is null. Th
 // Double Checked Locking based Java implementation of
 // singleton design pattern
 
-class Singleton
-{
-    private volatile static Singleton obj;
- 
-    private Singleton() {}
- 
-    public static Singleton getInstance()
+    class Singleton
     {
-        if (obj == null)
+        private volatile static Singleton obj;
+
+        private Singleton() {}
+
+        public static Singleton getInstance()
         {
-            // To make thread safe
-            synchronized (Singleton.class)
+            if (obj == null)
             {
-                // check again as multiple threads
-                // can reach above step
-                if (obj==null)
-                    obj = new Singleton();
+                // To make thread safe
+                synchronized (Singleton.class)
+                {
+                    // check again as multiple threads
+                    // can reach above step
+                    if (obj==null)
+                        obj = new Singleton();
+                }
             }
+            return obj;
         }
-        return obj;
     }
-}
 
 We have declared the obj volatile which ensures that multiple threads offer the obj variable correctly when it is being initialized to Singleton instance. This method drastically reduces the overhead of calling the synchronized method every time.
