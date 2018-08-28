@@ -10,6 +10,7 @@ Let’s see various design options for implementing such a class. If you have a 
 
 // Classical Java implementation of singleton 
 // design pattern
+
 class Singleton
 {
     private static Singleton obj;
@@ -37,6 +38,7 @@ This execution sequence creates two objects for singleton. Therefore this classi
 
 // Thread Synchronized Java implementation of 
 // singleton design pattern
+
 class Singleton
 {
     private static Singleton obj;
@@ -60,6 +62,7 @@ The main disadvantage of this is method is that using synchronized every time wh
 
 // Static initializer based Java implementation of
 // singleton design pattern
+
 class Singleton
 {
     private static Singleton obj = new Singleton();
@@ -80,6 +83,7 @@ So we will only acquire lock on the getInstance() once, when the obj is null. Th
 
 // Double Checked Locking based Java implementation of
 // singleton design pattern
+
 class Singleton
 {
     private volatile static Singleton obj;
