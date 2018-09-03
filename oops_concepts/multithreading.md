@@ -14,6 +14,8 @@ We create a class that extends the java.lang.Thread class. This class overrides 
 
 // Java code for thread creation by extending
 // the Thread class
+  
+  
   class MultithreadingDemo extends Thread
   {
       public void run()
@@ -35,6 +37,8 @@ We create a class that extends the java.lang.Thread class. This class overrides 
   }
 
   // Main Class
+  
+  
   public class Multithread
   {
       public static void main(String[] args)
@@ -65,6 +69,8 @@ We create a new class which implements java.lang.Runnable interface and override
 
 // Java code for thread creation by implementing
 // the Runnable Interface
+  
+  
   class MultithreadingDemo implements Runnable
   {
       public void run()
@@ -86,6 +92,8 @@ We create a new class which implements java.lang.Runnable interface and override
   }
 
   // Main Class
+  
+  
   class Multithread
   {
       public static void main(String[] args)
