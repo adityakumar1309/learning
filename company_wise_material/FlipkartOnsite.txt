@@ -1,0 +1,10 @@
+Coding Round: Create a system for managing sales of chain of stores for various commodities like foods and beverages. It should be able to return average and total sales of individual items and categories. There were many other functionalities as well in similar lines like top sales in some date or city, top selling items, highest average sales of item or category and so on.
+
+DS & Algo: 
+1. Data structure for load balancer and followup questions for alternative designs
+2. Some question I don't remember right now
+3. Highest contiguous sum sequence in an integer array
+
+Design: Website portal which has thousands of games, end to end flow, APIs and design of application, databases etc. Deep dive into one particular game design like Snake and Ladder.
+
+Hiring Manager: This round didn't happen as I was told Hiring Manager is not available.
