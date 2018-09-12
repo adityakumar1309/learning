@@ -7,7 +7,7 @@ HLD
 6) twitter trending
 7) recommendation engine
 8) logger aggregated system
-9) 
+
 
 LLD
 1) bookmyshow
@@ -22,7 +22,7 @@ LLD
 10) soduku game
 11) push notification
 12) deck of cards 
-13) 
+
 
 connection pool 
 lru cache
@@ -51,9 +51,9 @@ https://www.quora.com/What-is-Amazon-Simple-Workflow-SWF-used-for
 https://www.quora.com/What-are-some-alternatives-to-Amazon-Simple-Workflow
 
 
-1,2,1,3,1
-
 solve -> https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/
+
+
 operational transformation -> understand deeply
 
 
@@ -76,14 +76,6 @@ feed publish
 	-> API
 		getUserFeed(api_dev_key, user_id, since_id, count, max_id, exclude_replies)
 
-
-
-notifications systems
-recommendation systems
-collaberative editor  operational transform
-type ahead
-url shortner
-
 Stock Ticker
 	-> pub sub model
 	-> Publish-subscribe messaging systems can support use cases in which multiple consumers receive each message and/or that messages are received in order by each consumer. For example, a stock ticker service can be used by a large number of people and applications, all of whom want to receive all messages (e.g. prices at which stock trades occur) on their topics of choice
@@ -93,3 +85,9 @@ first attempt last three tabs
 https://stackoverflow.com/questions/493276/modelling-an-elevator-using-object-oriented-analysis-and-design
 https://inst.eecs.berkeley.edu/~cs162/sp07/Nachos/chess.shtml
 https://www.youtube.com/watch?v=fJW65Wo7IHI
+
+notifications systems
+recommendation systems
+collaberative editor  operational transform
+type ahead
+url shortner
