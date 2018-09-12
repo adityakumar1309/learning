@@ -59,25 +59,37 @@ operational transformation -> understand deeply
 
 feed publish 
     -> 3 components
+    
     	- data model/ feed generation
+	
     	- feed ranking . it has two parts (feed agregator, feed ranker)
+	
     	- feed publish
+	
 	-> hybrid of push model(disable fanout for high profiles) and pull model(high profiles activity feed calculated on fly when asked for) . fan out on write vs fan out on load
+	
 	-> push may have priority like more priority for online/active users
+	
 	-> push not very good for mobile due to bandwith issue
+	
 	-> denormalised data 
+	
 	-> in memory redis . lru for users feed in redis (only generate feed for users who login on regular basis)
+	
 	-> indexing on (user_id, created_date)
+	
 	-> Ranking of feed . 
 		Sensitivity factors 
 			-> affinity score (close friend's activity will get high score)
 			-> edge type and edge wt (likes, tag, comment, share etc will have different scores)
 			-> time decay (more recent will get higher wts)
+	
 	-> API
 		getUserFeed(api_dev_key, user_id, since_id, count, max_id, exclude_replies)
 
 Stock Ticker
 	-> pub sub model
+	
 	-> Publish-subscribe messaging systems can support use cases in which multiple consumers receive each message and/or that messages are received in order by each consumer. For example, a stock ticker service can be used by a large number of people and applications, all of whom want to receive all messages (e.g. prices at which stock trades occur) on their topics of choice
 
 
@@ -87,7 +99,11 @@ https://inst.eecs.berkeley.edu/~cs162/sp07/Nachos/chess.shtml
 https://www.youtube.com/watch?v=fJW65Wo7IHI
 
 notifications systems
+
 recommendation systems
+
 collaberative editor  operational transform
+
 type ahead
+
 url shortner
