@@ -22,5 +22,7 @@ Manually flush a table using nodetool flush or nodetool drain (flushes memtables
 ##Storing data on disk in SSTables
 Memtables and SSTables are maintained per table. The commit log is shared among tables. SSTables are immutable, not written to again after the memtable is flushed. Consequently, a partition is typically stored across multiple SSTable files. A number of other SSTable structures exist to assist read operations:
 
+![alt text](https://github.com/adityakumar1309/coding/blob/master/images/cassandra_write.png)
+
 # How is data read?
 To satisfy a read, Cassandra must combine results from the active memtable and potentially multiple SSTables.
