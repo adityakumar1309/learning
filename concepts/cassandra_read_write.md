@@ -1,11 +1,11 @@
 # How is data written?
-Cassandra processes data at several stages on the write path, 
-starting with the immediate logging of a write and ending in with a write of data to disk:
+Cassandra processes data at several stages on the write path.
 Logging data in the commit log
 Writing data to the memtable
 Flushing data from the memtable
 Storing data on disk in SSTables
 Logging writes and memtable storage
+
 When a write occurs, Cassandra stores the data in a memory structure called memtable, and to provide configurable durability, it also appends writes to the commit log on disk. The commit log receives every write made to a Cassandra node, and these durable writes survive permanently even if power fails on a node. The memtable is a write-back cache of data partitions that Cassandra looks up by key. The memtable stores writes in sorted order until reaching a configurable limit, and then is flushed.
 
 ## Flushing data from the memtable
