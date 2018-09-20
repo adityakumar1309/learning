@@ -11,10 +11,11 @@ The above algorithm is called user-based collaborative filtering.
 Another version is called item-based collaborative filtering, 
 which means to recommend videos (items) that are similar to videos a user has watched.
 
-Factors:
-Offline Generation
-Sensitivity Factors: 
-  a) Freshness
-  b) Location
+## Factors:
+    Offline Generation
+    Sensitivity Factors: 
+        a) Freshness
+        b) Location
 
+## Data Model
 User Choice data can be reprenseted in column vector (may be using casandra which is wide column)
