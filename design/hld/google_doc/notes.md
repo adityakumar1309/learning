@@ -1,3 +1,10 @@
+# Four Key Design Consideration
+  - stoarge
+  - online editing
+  - access control
+  - collaboration / concurrency
+  
+
 ## File storage. 
 Since Google Docs is part of Google Drive, I include the storage feature as well. The system allows users to group files (docs) into folders and support features like edit/create/remove etc.. It works like an OS.
 
