@@ -5,12 +5,14 @@ Since Google Docs is part of Google Drive, I include the storage feature as well
 
 There’s no doubt that one of the core features of Google Docs is online editing. It supports almost everything of Microsoft Office and maybe more.
 
-##Access Control. 
+## Access Control. 
 
 You can share docs with your friends and give different permissions (owner, read-only, allow comment etc.).
 
 ## Collaboration. 
 
+
 It’s truly amazing that Google Docs allows multiple people to edit a single doc simultaneously. This is a technical challenge for sure.
 
+### Operational Transform 
 ![alt text](https://github.com/adityakumar1309/learning/blob/master/images/ot.png)
