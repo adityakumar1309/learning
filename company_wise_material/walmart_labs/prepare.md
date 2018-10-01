@@ -9,6 +9,38 @@
     
     concurrency 
     
+    What is static and dynamic binding? Give example.
+    
+    wrapper class in java and what is importance of it 
+        
+    Serializable interface
+    
+    difference between wait() and sleep() in java.
+    
+    reflections in java
+    
+    discussion on garbage collector algorithms and different heap generations.
+    
+    difference between NoClassDefFoundError and ClassNotFoundException in java.
+    
+     discussion on mutex and semaphore. discussion on lock and synchronization.    
+     
+     What is the major advantage of autoboxing?
+         
+     How to define custom annotation?
+     
+     Explain JAVA memory model.
+        7)Difference between IsInstance and Instanceof.
+        8)Can you override methods of Arraylist?If so how?
+        9)Difference between Hash Map and Tree Map
+        10) Explain Concurrent hash map . (and few more which I am not able to recall)
+        
+     
+     
+     
+    
+ discussion on REST services.
+ 
 # java syntaxes (may be required if they ask you to code in java)
 # VM and optimisations.
 
@@ -44,7 +76,8 @@ Delete a specific node
 1 Answer
 Delete a random node without root  
 
-2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
+# 2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
+
 3. What is the difference between checked and unchecked exception .Draw the exception hierarchy.
 
 - Given a string how will you remove consecutive characters e.g. "mxabbachhcllo"
@@ -136,3 +169,100 @@ Generate all possible ip address given an ip address
 
 Given all robotic directions.. Give the shortest distance to reach the same destination
 
+Rows and columns are sorted . Search an element in them .
+
+
+# Behaviour Round
+
+    https://worknearyou.net/walmart-interview-questions/
+
+# DATABASE
+
+1. What is difference in `where` and `having` clause.
+2. What is difference in `unique` and `unique all`.
+
+no of island
+
+https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
+
+Question 1 – Write code for Quick Sort, Questions related to time complexity and optimization, can we achieve Complexity of less than O(nlog(n))? by using N threads ?.
+
+ Implement an immutable class that has a hashMap as instance variable
+ 
+ # Write an immuatable class 
+ 
+ # detect loop and remove from linked list
+ 
+ # print odd and even using multithreading
+ 
+ # median in linked list
+ 
+ https://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/
+ 
+ https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
+ 
+ https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+ 
+ # permutation of string
+ 
+ Find pivot in a rotated and sorted array.
+ 
+ https://www.geeksforgeeks.org/counting-inversions/
+ 
+ 1) https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
+ 
+ 2) Given a number that generates random numbers in range 1-5(including both), use this function to create a function that generates random numbers in range 1-7(including both).
+ 
+ 4) https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
+ 
+ https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
+ 
+  https://www.geeksforgeeks.org/puzzle-elevator-puzzle/
+  
+   https://www.geeksforgeeks.org/maximum-sum-path-right-number-triangle/
+   
+    Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)
+    
+    https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
+    
+    
+ # TREE TRAVERSALE 
+    - spiral
+    - top view
+    - botom view
+    - right view/left view
+    - boundary traversal
+    - iterative inorder/postorder/preorder
+    
+Reverse alternate nodes in linked list
+
+
+
+    
+  https://www.geeksforgeeks.org/ugly-numbers/
+  
+  https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
+  
+  https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
+  
+  # https://www.geeksforgeeks.org/find-highest-occurring-digit-prime-numbers-range/
+  
+  https://www.geeksforgeeks.org/find-maximum-number-possible-by-doing-at-most-k-swaps/
+  
+  https://www.geeksforgeeks.org/wildcard-pattern-matching/
+  
+  given linkedlist and a number k. reverse linkedlist in a group of k.
+  
+  https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+  
+  https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
+  
+  https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+  
+  https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+  
+  https://www.geeksforgeeks.org/queue-using-stacks/
+  
+  https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/
+  
+  https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
