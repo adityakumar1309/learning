@@ -81,8 +81,6 @@ Your task is to optimally swap these columns such that you get a largest rectang
 
 given two strings find out total number of occurrences of second string in first string. 
 
-URL Parsing
-
 Reverse a linked list recursively and non recursively.  
 
 Find the loop in a linked list.  
