@@ -34,11 +34,7 @@
         8)Can you override methods of Arraylist?If so how?
         9)Difference between Hash Map and Tree Map
         10) Explain Concurrent hash map . (and few more which I am not able to recall)
-        
-     
-     
-     
-    
+         
  discussion on REST services.
  
 # java syntaxes (may be required if they ask you to code in java)
@@ -57,13 +53,9 @@ Desing a booking system (basically propose a design with all possible tables in 
   
 Random Song problem. Check Geeksforgeeks  
 
-Interview Questions
-
 Quick Sort Algorithm and its time complexity in best case & worst case  
 Linked List copy with random nodes  
   
-Delete a specific node  
-
 Delete a random node without root  
 
 ## 2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
@@ -73,8 +65,6 @@ Delete a random node without root
 - Given a string how will you remove consecutive characters e.g. "mxabbachhcllo"
 
 - Design a system like oozie.  
-
-Interview Questions
 
 1)Substring with k unique characters,
 2)There are rows of n houses, each house can be painted with one of the three colors: red, blue or green. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
@@ -106,8 +96,6 @@ minimum steps to reach destination in snakes and ladders
 2.Check whether a given binary tree is binary search tree or not?
 
 3.How to check whether a given point lies in a triangle or not?
-
-4. Implement a stack using 2 queues.
 
 5. What is paging? Difference b/w paging and segmentation?
 
@@ -198,11 +186,11 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
  
  https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
  
-  https://www.geeksforgeeks.org/puzzle-elevator-puzzle/
+ https://www.geeksforgeeks.org/puzzle-elevator-puzzle/
   
-   https://www.geeksforgeeks.org/maximum-sum-path-right-number-triangle/
+ https://www.geeksforgeeks.org/maximum-sum-path-right-number-triangle/
    
-    Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)
+ Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)
     
  # TREE TRAVERSALE 
     - spiral
