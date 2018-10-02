@@ -210,8 +210,6 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
    
     Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)
     
-    https://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/
-    
  # TREE TRAVERSALE 
     - spiral
     - top view
@@ -235,16 +233,10 @@ Reverse alternate nodes in linked list
   https://www.geeksforgeeks.org/wildcard-pattern-matching/
   
   given linkedlist and a number k. reverse linkedlist in a group of k.
-  
-  https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
-  
+ 
   https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
   
-  https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
-  
   https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
-  
-  https://www.geeksforgeeks.org/queue-using-stacks/
   
   https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
   
