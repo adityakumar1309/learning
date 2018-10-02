@@ -1,6 +1,6 @@
-# dp
-# coin-change problem
-# java concepts 
+## dp
+## coin-change problem
+## java concepts 
     (Maven lifecycle, threading, deadlock avoidance)
     
     Serialization, Explain Java Memory model, 
@@ -54,22 +54,19 @@ show the code for executor service with fixed thread pool and callable thread
 Height of binary tree with and without recursion. 
 
 Desing a booking system (basically propose a design with all possible tables in the database) 
-
-Sort Array of 0's and 1's in O(n) time.  
-
+  
 Random Song problem. Check Geeksforgeeks  
 
 Interview Questions
 
 Quick Sort Algorithm and its time complexity in best case & worst case  
 Linked List copy with random nodes  
-
-Sort an array of zeros and ones  
+  
 Delete a specific node  
 
 Delete a random node without root  
 
-# 2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
+## 2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
 
 3. What is the difference between checked and unchecked exception .Draw the exception hierarchy.
 
@@ -84,11 +81,11 @@ Interview Questions
 
 The programming question was that given a binary matrix find the rectangle having the maximum area with column swaps allowed. Also, tell the minimum number of swaps needed.
 
-# Linked List Palindrome 
+## Linked List Palindrome 
 
 K reversal of link list.
 
-# HOT QUESTION
+## HOT QUESTION
 you are given a matrix that has either 0 or 1. You can perform only one operation on matrix. It is to swap two columns of a matrix.
 Your task is to optimally swap these columns such that you get a largest rectangular submatrix that consist of only 1's. Make sure that the no of swap opertion you performed are minimum.  
 
@@ -122,7 +119,6 @@ minimum steps to reach destination in snakes and ladders
 
 9. Print all nodes in a binary tree in zigzag format.
 
-Interview round 2:
 # 1.Dynamic programming( longest increasing sequence)
 
 2.dynamic programming (longest ap sequence)
@@ -159,9 +155,7 @@ Given all robotic directions.. Give the shortest distance to reach the same dest
 
 Rows and columns are sorted . Search an element in them .
 
-# Behaviour Round
-
-    https://worknearyou.net/walmart-interview-questions/
+# Behaviour Round    https://worknearyou.net/walmart-interview-questions/
 
 # DATABASE
 
@@ -176,13 +170,13 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
 
  Implement an immutable class that has a hashMap as instance variable
  
- # Write an immuatable class 
+ ## Write an immuatable class 
  
- # detect loop and remove from linked list
+ ## detect loop and remove from linked list
  
- # print odd and even using multithreading
+ ## print odd and even using multithreading
  
- # median in linked list
+ ## median in linked list
  
  https://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/
  
@@ -190,7 +184,7 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
  
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
  
- # permutation of string
+ ## permutation of string
  
  Find pivot in a rotated and sorted array.
  
