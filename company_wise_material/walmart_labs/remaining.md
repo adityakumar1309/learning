@@ -54,10 +54,7 @@ Desing a booking system (basically propose a design with all possible tables in 
 Random Song problem. Check Geeksforgeeks  
 
 Quick Sort Algorithm and its time complexity in best case & worst case  
-Linked List copy with random nodes  
-  
-Delete a random node without root  
-
+   
 ## 2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
 
 3. What is the difference between checked and unchecked exception .Draw the exception hierarchy.
