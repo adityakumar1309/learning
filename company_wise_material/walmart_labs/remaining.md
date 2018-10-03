@@ -47,8 +47,6 @@ rotate a array of length L by k ,in o(n)
 
 show the code for executor service with fixed thread pool and callable thread
 
-Height of binary tree with and without recursion. 
-
 Desing a booking system (basically propose a design with all possible tables in the database) 
   
 Random Song problem. Check Geeksforgeeks  
@@ -101,8 +99,6 @@ minimum steps to reach destination in snakes and ladders
 8. Print all the pairs which make sum x in an array of n integers?
 
 9. Print all nodes in a binary tree in zigzag format.
-
-# 1.Dynamic programming( longest increasing sequence)
 
 2.dynamic programming (longest ap sequence)
 
