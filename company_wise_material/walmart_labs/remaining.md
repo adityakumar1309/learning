@@ -70,21 +70,13 @@ minimum steps to reach destination in snakes and ladders
 
 7. How will u search in a rotated array in minimum time complexity?
 
-8. Print all the pairs which make sum x in an array of n integers?
-
-9. Print all nodes in a binary tree in zigzag format.
-
 2.dynamic programming (longest ap sequence)
 
 3. how can generate a different string every time.
 
-4. how can you compare 2 elements without using any relational operator?
-
 5. You need to deliver goods to n different places, you have fuel constraint and a delivery time limit for each of the n places. Design a algo to deliver the goods efficiently. (combination of 2 graph algorithms)
 
 6. LRU cache data structure implementation.
-
-7. some questions on my project.
 
 8.BFS,DFS
 
@@ -99,10 +91,6 @@ Multiple threads running on multiple CPUs , how volatile works etc.
 How to implement a tiny url or bitly.
 
 Difference between java serialisation vs kyro etc.  
-
-Process a prefix expression.  
-
-Generate all possible ip address given an ip address  
 
 Given all robotic directions.. Give the shortest distance to reach the same destination
 
