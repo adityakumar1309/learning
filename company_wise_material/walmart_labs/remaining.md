@@ -1,4 +1,3 @@
-## dp
 ## coin-change problem
 ## java concepts 
     (Maven lifecycle, threading, deadlock avoidance)
@@ -19,8 +18,7 @@
         10) Explain Concurrent hash map . (and few more which I am not able to recall)
          
  discussion on REST services.
- 
-# java syntaxes (may be required if they ask you to code in java)
+
 # VM and optimisations.
 
 Given a range of train start and end timings(when trains arrives and when trains departs from satation) find the minimum platform needed to accommodate all trains in station
@@ -121,13 +119,10 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
  Implement an immutable class that has a hashMap as instance variable
  
  ## Write an immuatable class 
- 
  ## print odd and even using multithreading
- 
  ## median in linked list
  
  https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
- 
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
  
  ## permutation of string
@@ -135,17 +130,13 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
  Find pivot in a rotated and sorted array.
  
  https://www.geeksforgeeks.org/counting-inversions/
- 
  1) https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
  
  2) Given a number that generates random numbers in range 1-5(including both), use this function to create a function that generates random numbers in range 1-7(including both).
  
  4) https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
- 
  https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
- 
- https://www.geeksforgeeks.org/puzzle-elevator-puzzle/
-  
+ https://www.geeksforgeeks.org/puzzle-elevator-puzzle/ 
  https://www.geeksforgeeks.org/maximum-sum-path-right-number-triangle/
    
  Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)
@@ -161,22 +152,15 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
 Reverse alternate nodes in linked list
   
   https://www.geeksforgeeks.org/ugly-numbers/
-  
   https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
-  
   https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
-  
   # https://www.geeksforgeeks.org/find-highest-occurring-digit-prime-numbers-range/
-  
   https://www.geeksforgeeks.org/find-maximum-number-possible-by-doing-at-most-k-swaps/
-  
   https://www.geeksforgeeks.org/wildcard-pattern-matching/
   
   given linkedlist and a number k. reverse linkedlist in a group of k.
  
   https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
-  
   https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
-  
   https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
   
