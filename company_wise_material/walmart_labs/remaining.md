@@ -9,19 +9,12 @@
     wrapper class in java and what is importance of it         
     Serializable interface    
     difference between wait() and sleep() in java.
-    
-    reflections in java
-    
-    discussion on garbage collector algorithms and different heap generations.
-    
-    difference between NoClassDefFoundError and ClassNotFoundException in java.
-    
-     discussion on mutex and semaphore. discussion on lock and synchronization.    
-     
+    reflections in java    
+    discussion on garbage collector algorithms and different heap generations.    
+    difference between NoClassDefFoundError and ClassNotFoundException in java.   
+    discussion on mutex and semaphore. discussion on lock and synchronization.       
      What is the major advantage of autoboxing?
-         
      How to define custom annotation?
-     
      Explain JAVA memory model.
         7)Difference between IsInstance and Instanceof.
         8)Can you override methods of Arraylist?If so how?
@@ -33,8 +26,7 @@
 # java syntaxes (may be required if they ask you to code in java)
 # VM and optimisations.
 
-Given a range of train start and end timings(when trains arrives and when trains departs from satation)
- find the minimum platform needed to accommodate all trains in station
+Given a range of train start and end timings(when trains arrives and when trains departs from satation) find the minimum platform needed to accommodate all trains in station
  
 rotate a array of length L by k ,in o(n)  
 
