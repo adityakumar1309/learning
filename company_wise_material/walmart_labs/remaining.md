@@ -62,8 +62,6 @@ minimum steps to reach destination in snakes and ladders
 
 2.Check whether a given binary tree is binary search tree or not?
 
-3.How to check whether a given point lies in a triangle or not?
-
 5. What is paging? Difference b/w paging and segmentation?
 
 6. Different types of memories.(primary,secondary)
