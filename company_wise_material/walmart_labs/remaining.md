@@ -42,16 +42,12 @@ Quick Sort Algorithm and its time complexity in best case & worst case
 
 3. What is the difference between checked and unchecked exception .Draw the exception hierarchy.
 
-- Given a string how will you remove consecutive characters e.g. "mxabbachhcllo"
-
 - Design a system like oozie.  
 
 1)Substring with k unique characters,
 2)There are rows of n houses, each house can be painted with one of the three colors: red, blue or green. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
 
 The programming question was that given a binary matrix find the rectangle having the maximum area with column swaps allowed. Also, tell the minimum number of swaps needed.
-
-## Linked List Palindrome 
 
 K reversal of link list.
 
