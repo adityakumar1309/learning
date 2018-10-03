@@ -115,11 +115,6 @@ Rows and columns are sorted . Search an element in them .
 
 # Behaviour Round    https://worknearyou.net/walmart-interview-questions/
 
-# DATABASE
-
-1. What is difference in `where` and `having` clause.
-2. What is difference in `unique` and `unique all`.
-
 no of island
 
 https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
