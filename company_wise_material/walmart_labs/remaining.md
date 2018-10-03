@@ -4,10 +4,7 @@
     (Maven lifecycle, threading, deadlock avoidance)
     Serialization, Explain Java Memory model,     
     Java 8 Lambda expressions, Synchronization, Inhertiance and Abstract classes      
-    concurrency     
-    What is static and dynamic binding? Give example.    
-    wrapper class in java and what is importance of it         
-    Serializable interface    
+    concurrency       
     difference between wait() and sleep() in java.
     reflections in java    
     discussion on garbage collector algorithms and different heap generations.    
