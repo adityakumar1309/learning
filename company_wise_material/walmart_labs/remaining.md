@@ -161,8 +161,6 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
  
  ## median in linked list
  
- https://www.geeksforgeeks.org/find-a-sorted-subsequence-of-size-3-in-linear-time/
- 
  https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
  
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
