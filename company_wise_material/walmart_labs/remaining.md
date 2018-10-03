@@ -1,7 +1,7 @@
 ## coin-change problem
 ## java concepts 
     (Maven lifecycle, threading, deadlock avoidance)
-    Serialization, Explain Java Memory model,     
+    Explain Java Memory model,     
     Java 8 Lambda expressions, Synchronization, Inhertiance and Abstract classes      
     concurrency       
     difference between wait() and sleep() in java.
@@ -9,9 +9,9 @@
     discussion on garbage collector algorithms and different heap generations.    
     difference between NoClassDefFoundError and ClassNotFoundException in java.   
     discussion on mutex and semaphore. discussion on lock and synchronization.       
-     What is the major advantage of autoboxing?
-     How to define custom annotation?
-     Explain JAVA memory model.
+    What is the major advantage of autoboxing?
+    How to define custom annotation?
+    Explain JAVA memory model.
         7)Difference between IsInstance and Instanceof.
         8)Can you override methods of Arraylist?If so how?
         9)Difference between Hash Map and Tree Map
@@ -54,8 +54,6 @@ given two strings find out total number of occurrences of second string in first
 
 Reverse a linked list recursively and non recursively.  
  
-OSI Layers  
-
 minimum steps to reach destination in snakes and ladders
 
 1.An array in which each element occurs in pairs except one. How can u find it?
