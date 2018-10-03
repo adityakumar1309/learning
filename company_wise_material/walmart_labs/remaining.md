@@ -2,19 +2,12 @@
 ## coin-change problem
 ## java concepts 
     (Maven lifecycle, threading, deadlock avoidance)
-    
-    Serialization, Explain Java Memory model, 
-    
-    Java 8 Lambda expressions, Synchronization, Inhertiance and Abstract classes  
-    
-    concurrency 
-    
-    What is static and dynamic binding? Give example.
-    
-    wrapper class in java and what is importance of it 
-        
-    Serializable interface
-    
+    Serialization, Explain Java Memory model,     
+    Java 8 Lambda expressions, Synchronization, Inhertiance and Abstract classes      
+    concurrency     
+    What is static and dynamic binding? Give example.    
+    wrapper class in java and what is importance of it         
+    Serializable interface    
     difference between wait() and sleep() in java.
     
     reflections in java
@@ -77,9 +70,7 @@ Your task is to optimally swap these columns such that you get a largest rectang
 given two strings find out total number of occurrences of second string in first string. 
 
 Reverse a linked list recursively and non recursively.  
-
-Find the loop in a linked list.  
-
+ 
 OSI Layers  
 
 minimum steps to reach destination in snakes and ladders
@@ -150,8 +141,6 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
  Implement an immutable class that has a hashMap as instance variable
  
  ## Write an immuatable class 
- 
- ## detect loop and remove from linked list
  
  ## print odd and even using multithreading
  
