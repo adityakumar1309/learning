@@ -56,8 +56,6 @@ Reverse a linked list recursively and non recursively.
  
 minimum steps to reach destination in snakes and ladders
 
-1.An array in which each element occurs in pairs except one. How can u find it?
-
 2.Check whether a given binary tree is binary search tree or not?
 
 5. What is paging? Difference b/w paging and segmentation?
@@ -65,8 +63,6 @@ minimum steps to reach destination in snakes and ladders
 6. Different types of memories.(primary,secondary)
 
 7. How will u search in a rotated array in minimum time complexity?
-
-2.dynamic programming (longest ap sequence)
 
 3. how can generate a different string every time.
 
