@@ -129,7 +129,6 @@ Reverse alternate nodes in linked list
   https://www.geeksforgeeks.org/ugly-numbers/
   https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
   https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
-  # https://www.geeksforgeeks.org/find-highest-occurring-digit-prime-numbers-range/
   https://www.geeksforgeeks.org/find-maximum-number-possible-by-doing-at-most-k-swaps/
   https://www.geeksforgeeks.org/wildcard-pattern-matching/
   
