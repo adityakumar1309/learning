@@ -1,6 +1,6 @@
 ## coin-change problem
 ## java concepts 
-    (Maven lifecycle, threading, deadlock avoidance)
+    Maven lifecycle, threading, deadlock avoidance
     Explain Java Memory model,     
     Java 8 Lambda expressions, Synchronization, Inhertiance and Abstract classes      
     concurrency       
@@ -17,8 +17,6 @@
         9)Difference between Hash Map and Tree Map
         10) Explain Concurrent hash map . (and few more which I am not able to recall)
          
- discussion on REST services.
-
 # VM and optimisations.
     Given a range of train start and end timings(when trains arrives and when trains departs from satation) find the minimum platform needed to accommodate all trains in station
     rotate a array of length L by k ,in o(n)  
@@ -58,13 +56,10 @@
     Given all robotic directions.. Give the shortest distance to reach the same destination
     Rows and columns are sorted . Search an element in them .
 # Behaviour Round    https://worknearyou.net/walmart-interview-questions/
-    no of island
     https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
     Question 1 – Write code for Quick Sort, Questions related to time complexity and optimization, can we achieve Complexity of less than O(nlog(n))? by using N threads ?.
-    Implement an immutable class that has a hashMap as instance variable 
- ## Write an immuatable class 
+ ## Write an immuatable class, Implement an immutable class that has a hashMap as instance variable 
  ## print odd and even using multithreading
- ## median in linked list
   https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/ 
  ## permutation of string 
@@ -94,4 +89,5 @@
       https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
       https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
       https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
-
+      no of island
+      discussion on REST services.
