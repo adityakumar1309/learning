@@ -53,8 +53,6 @@ Your task is to optimally swap these columns such that you get a largest rectang
 given two strings find out total number of occurrences of second string in first string. 
 
 Reverse a linked list recursively and non recursively.  
- 
-minimum steps to reach destination in snakes and ladders
 
 2.Check whether a given binary tree is binary search tree or not?
 
@@ -110,10 +108,7 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
  Find pivot in a rotated and sorted array.
  
  https://www.geeksforgeeks.org/counting-inversions/
- 1) https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
- 
- 2) Given a number that generates random numbers in range 1-5(including both), use this function to create a function that generates random numbers in range 1-7(including both).
- 
+ 1) https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/ 
  4) https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
  https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
  https://www.geeksforgeeks.org/puzzle-elevator-puzzle/ 
