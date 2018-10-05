@@ -69,8 +69,7 @@
      4) https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
      https://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/
      https://www.geeksforgeeks.org/puzzle-elevator-puzzle/ 
-     https://www.geeksforgeeks.org/maximum-sum-path-right-number-triangle/
-   
+     
  Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)   
  # TREE TRAVERSALE 
     - spiral
@@ -81,13 +80,11 @@
     - iterative inorder/postorder/preorder   
     Reverse alternate nodes in linked list
       https://www.geeksforgeeks.org/ugly-numbers/
-      https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
       https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
       https://www.geeksforgeeks.org/find-maximum-number-possible-by-doing-at-most-k-swaps/
       https://www.geeksforgeeks.org/wildcard-pattern-matching/ 
       given linkedlist and a number k. reverse linkedlist in a group of k.
       https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
-      https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
       https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
       no of island
       discussion on REST services.
