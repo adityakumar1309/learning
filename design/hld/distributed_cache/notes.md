@@ -21,4 +21,8 @@
    HAshTable
    - size 30 lets say
    - (word) --> hashFunc --> hashedValued (it is base 256 if we are using md5) --> convert into base10 (decimal) -> base10Value % sizeOfCache = index of HashTable
+   - inacse of collision we will have chain of linked list for given index . 
+   - use consitent hasing to make this hasing distributed 
+   - event queue holding events(get/put), then there is event loop 
+   ![alt text](https://github.com/adityakumar1309/learning/blob/master/images/Screen%20Shot%202018-10-07%20at%207.50.06%20PM.png)
    
