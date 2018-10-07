@@ -5,6 +5,7 @@
   - LRU (eviction)
   - 100 % avaialability
   - Scalable
+  - Fault Tolerant / Persistent
 
 ## Caching Best Practice
   - validity
@@ -27,3 +28,10 @@
    - So we need event driven logic .
    ![alt text](https://github.com/adityakumar1309/learning/blob/master/images/Screen%20Shot%202018-10-07%20at%207.50.06%20PM.png)
    
+## How to make Your Caching fault tolerant/persistent ?
+ 1) Regular time snapshot eg : how redis does dumps rdb file which is snapshot file periodically
+ 2) Have Replicas
+ 3) Use Log to reconstruct . Requests will be written to some kind of queue where requests will be written async . One service will keep reading this and update the log .
+ Picture Gives what we mean 
+ ![alt text](https://github.com/adityakumar1309/learning/blob/master/images/Screen%20Shot%202018-10-07%20at%209.53.33%20PM.png)
+ 
