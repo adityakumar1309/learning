@@ -24,5 +24,6 @@
    - inacse of collision we will have chain of linked list for given index . 
    - use consitent hasing to make this hasing distributed 
    - we need to have service which can do read/update hash and linked list etc . 
+   - So we need event driven logic .
    ![alt text](https://github.com/adityakumar1309/learning/blob/master/images/Screen%20Shot%202018-10-07%20at%207.50.06%20PM.png)
    
