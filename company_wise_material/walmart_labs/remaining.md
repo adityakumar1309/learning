@@ -21,7 +21,6 @@
     Given a range of train start and end timings(when trains arrives and when trains departs from satation) find the minimum platform needed to accommodate all trains in station
     rotate a array of length L by k ,in o(n)  
     show the code for executor service with fixed thread pool and callable thread
-    Desing a booking system (basically propose a design with all possible tables in the database) 
     Random Song problem. Check Geeksforgeeks  
     Quick Sort Algorithm and its time complexity in best case & worst case  
    
@@ -45,23 +44,17 @@
 ## Write producer consumer thread program
     notifyAll without synchronised will throw exception , these kind of silly questions.
     Multiple threads running on multiple CPUs , how volatile works etc.
-    How to implement a tiny url or bitly.
     Difference between java serialisation vs kyro etc.  
     Given all robotic directions.. Give the shortest distance to reach the same destination
     Rows and columns are sorted . Search an element in them .
-# Behaviour Round    https://worknearyou.net/walmart-interview-questions/
     https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
     Question 1 – Write code for Quick Sort, Questions related to time complexity and optimization, can we achieve Complexity of less than O(nlog(n))? by using N threads ?.
  ## Write an immuatable class, Implement an immutable class that has a hashMap as instance variable 
  ## print odd and even using multithreading
-  https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/ 
  ## permutation of string 
-     Find pivot in a rotated and sorted array. 
      https://www.geeksforgeeks.org/counting-inversions/
-     1) https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/ 
      4) https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
-     https://www.geeksforgeeks.org/puzzle-elevator-puzzle/ 
      
  Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)   
  # TREE TRAVERSALE 
@@ -74,3 +67,4 @@
       https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
       https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
       no of island
+      # Behaviour Round    https://worknearyou.net/walmart-interview-questions/
