@@ -4,10 +4,14 @@ In first 2 years i was part of various projects which involved frontend, backend
 
 After 2 years Veveo was aqcuired by Rovi whose name got changed to Tivo later on .
 So it has been 6yrs plus i have been part of same company . 
+
 ->Since aquistion i have been part of data team where my role was deplop 
 APIs
+
 ->Handle millions of data of a client and apply some nlp and data processing and returning them some result
+
 ->I have also been invloved in tokenising simple sentences and later transforming those into rules, grammar .
+
 ->I have been part of a project where i had to solely design end to end architiecture .
 Where clients send there huge data and we need to automate or pipeline the whole process to extract the data, apply some nlp and then pass it through our knowledge graph and then load to our in-memory cache ie redis and mysql db
 
