@@ -11,11 +11,11 @@ APIs
 ->I have been part of a project where i had to solely design end to end architiecture .
 Where clients send there huge data and we need to automate or pipeline the whole process to extract the data, apply some nlp and then pass it through our knowledge graph and then load to our in-memory cache ie redis and mysql db
 
-Most Challenging
+## Most Challenging
 1) People leaving and proper KT was not arranged and the person who got KT also left (generic Parser)
 2) Implement Generic Parser
 
-Most Difficult Problem
+## Most Difficult Problem
 	Designing end to end to overcome bottleneck of existing system
 		- database tuning
 		- redis layer
