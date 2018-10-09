@@ -3,12 +3,10 @@
     Maven lifecycle, deadlock avoidance
     Explain Java Memory model,     
     Java 8 Lambda expressions,     
-    concurrency
-    reflections in java    
+    concurrency  
     discussion on garbage collector algorithms and different heap generations.    
     difference between NoClassDefFoundError and ClassNotFoundException in java.   
-    discussion on mutex and semaphore. discussion on lock and synchronization.       
-    How to define custom annotation?
+    discussion on lock and synchronization.       
     Explain JAVA memory model.
         7)Difference between IsInstance and Instanceof.
         8)Can you override methods of Arraylist?If so how?
@@ -16,10 +14,7 @@
         10) Explain Concurrent hash map . (and few more which I am not able to recall)
          
 # VM and optimisations.
-    Given a range of train start and end timings(when trains arrives and when trains departs from satation) find the minimum platform needed to accommodate all trains in station
-    rotate a array of length L by k ,in o(n)  
     show the code for executor service with fixed thread pool and callable thread
-    Random Song problem. Check Geeksforgeeks  
     Quick Sort Algorithm and its time complexity in best case & worst case  
    
 ## 2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
@@ -51,10 +46,6 @@
      4) https://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/
      
  Design a data structure for updating an object efficiently in a multithreaded environment. (critical section problem)   
- # TREE TRAVERSALE 
-    - top view
-    - botom view
-    - iterative inorder/postorder/preorder   
       https://www.geeksforgeeks.org/wildcard-pattern-matching/ 
       https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
       https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
