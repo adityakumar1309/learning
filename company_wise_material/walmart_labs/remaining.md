@@ -19,7 +19,7 @@
    
 ## 2. Explain the internal working of hashmap. How get() and put() methods work internally?What happens if a null value is added? You have to explain hashcode() and equals() method in detail.
     3. What is the difference between checked and unchecked exception .Draw the exception hierarchy.
-    - Design a system like oozie.  
+    - Design a system like workflow system 
     1)Substring with k unique characters,
     2)There are rows of n houses, each house can be painted with one of the three colors: red, blue or green. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.
 
@@ -37,7 +37,6 @@
     Multiple threads running on multiple CPUs , how volatile works etc.
     Difference between java serialisation vs kyro etc.  
     Given all robotic directions.. Give the shortest distance to reach the same destination
-    Rows and columns are sorted . Search an element in them .
     https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
     Question 1 – Write code for Quick Sort, Questions related to time complexity and optimization, can we achieve Complexity of less than O(nlog(n))? by using N threads ?.
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/ 
