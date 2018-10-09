@@ -33,8 +33,6 @@
     Your task is to optimally swap these columns such that you get a largest rectangular submatrix that consist of only 1's. Make sure that the no of swap opertion you performed are minimum.  
     given two strings find out total number of occurrences of second string in first string. 
     Reverse a linked list recursively and non recursively.  
-    2.Check whether a given binary tree is binary search tree or not?
-    7. How will u search in a rotated array in minimum time complexity?
     3. how can generate a different string every time.
     5. You need to deliver goods to n different places, you have fuel constraint and a delivery time limit for each of the n places. Design a algo to deliver the goods efficiently. (combination of 2 graph algorithms)
     6. LRU cache data structure implementation.
@@ -47,7 +45,6 @@
     Rows and columns are sorted . Search an element in them .
     https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
     Question 1 – Write code for Quick Sort, Questions related to time complexity and optimization, can we achieve Complexity of less than O(nlog(n))? by using N threads ?.
- ## Write an immuatable class, Implement an immutable class that has a hashMap as instance variable 
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/ 
  ## permutation of string 
      https://www.geeksforgeeks.org/counting-inversions/
