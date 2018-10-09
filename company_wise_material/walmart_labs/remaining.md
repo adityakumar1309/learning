@@ -1,15 +1,13 @@
 ## coin-change problem
 ## java concepts 
-    Maven lifecycle, threading, deadlock avoidance
+    Maven lifecycle, deadlock avoidance
     Explain Java Memory model,     
-    Java 8 Lambda expressions, Synchronization, Inhertiance and Abstract classes      
-    concurrency       
-    difference between wait() and sleep() in java.
+    Java 8 Lambda expressions,     
+    concurrency
     reflections in java    
     discussion on garbage collector algorithms and different heap generations.    
     difference between NoClassDefFoundError and ClassNotFoundException in java.   
     discussion on mutex and semaphore. discussion on lock and synchronization.       
-    What is the major advantage of autoboxing?
     How to define custom annotation?
     Explain JAVA memory model.
         7)Difference between IsInstance and Instanceof.
@@ -50,7 +48,6 @@
     https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
     Question 1 – Write code for Quick Sort, Questions related to time complexity and optimization, can we achieve Complexity of less than O(nlog(n))? by using N threads ?.
  ## Write an immuatable class, Implement an immutable class that has a hashMap as instance variable 
- ## print odd and even using multithreading
  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/ 
  ## permutation of string 
      https://www.geeksforgeeks.org/counting-inversions/
@@ -61,10 +58,7 @@
     - top view
     - botom view
     - iterative inorder/postorder/preorder   
-    Reverse alternate nodes in linked list
-      https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
       https://www.geeksforgeeks.org/wildcard-pattern-matching/ 
       https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/
       https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
-      no of island
       # Behaviour Round    https://worknearyou.net/walmart-interview-questions/
