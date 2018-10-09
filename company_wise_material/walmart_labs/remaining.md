@@ -1,8 +1,7 @@
 ## coin-change problem
 ## java concepts 
     Maven lifecycle, deadlock avoidance
-    Explain Java Memory model,     
-    Java 8 Lambda expressions,     
+    Explain Java Memory model,         
     concurrency  
     discussion on garbage collector algorithms and different heap generations.    
     difference between NoClassDefFoundError and ClassNotFoundException in java.   
