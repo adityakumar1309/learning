@@ -17,3 +17,5 @@ Billing - Ticket obj, generate_bill()
 Rate - enum VehicleType, HashMap<enum, int>
 
 enum VehicleType - car, bus, truck, two wheeler
+
+To make it even more flexible and powerful, the ParkingManager could use a strategy for ordering the potential free spaces to be given for a specific size of vehicle, and implementing different kind of allocation heuristics.
