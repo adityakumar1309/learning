@@ -17,9 +17,9 @@
   -> indexing on (user_id, created_date)
 	
   -> Ranking of feed . 
-		  Sensitivity factors 
+	Sensitivity factors 
 			
-			-> affinity score (close friend's activity will get high score)
+		-> affinity score (close friend's activity will get high score)
 			
       -> edge type and edge wt (likes, tag, comment, share etc will have different scores)
 			
