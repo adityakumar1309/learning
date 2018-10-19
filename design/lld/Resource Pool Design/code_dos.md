@@ -13,18 +13,25 @@
 eg:
 
 abstract class ObjectPool<T>
-  Hashtable<T, Long> lock, unlock; 
+  
+  	Hashtable<T, Long> lock, unlock; 
     
-  abstract T create(); 
-	abstract boolean validate(T o); 
+  	abstract T create(); 
+	
+  	abstract boolean validate(T o); 
+	
 	abstract void dead(T o); 
   
-  synchronized T getPoolObject(){...}
+  	synchronized T getPoolObject(){...}
+	
 	synchronized void returnPoolObject(T t){...}
   
-  class JDBCConnectionPool extends ObjectPool<Connection>
+ class JDBCConnectionPool extends ObjectPool<Connection>
+    
     Connection create(){...}
+    
     void dead(Connection o){...}
+    
     boolean validate(Connection o){...}
     
     
