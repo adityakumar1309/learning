@@ -12,7 +12,7 @@
 
 eg:
 
-abstract class ObjectPool<T>
+## abstract class ObjectPool<T>
   
   	Hashtable<T, Long> lock, unlock; 
     
@@ -26,7 +26,7 @@ abstract class ObjectPool<T>
 	
 	synchronized void returnPoolObject(T t){...}
   
- class JDBCConnectionPool extends ObjectPool<Connection>
+ ## class JDBCConnectionPool extends ObjectPool<Connection>
     
     Connection create(){...}
     
@@ -35,4 +35,4 @@ abstract class ObjectPool<T>
     boolean validate(Connection o){...}
     
     
-  class Main{...}
+ ## class Main{...}
