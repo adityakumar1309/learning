@@ -236,9 +236,6 @@ Question 1 – Write code for Quick Sort, Questions related to time complexity a
     
 Reverse alternate nodes in linked list
 
-
-
-    
   https://www.geeksforgeeks.org/ugly-numbers/
   
   https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/
@@ -266,3 +263,19 @@ Reverse alternate nodes in linked list
   https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/ //need to look at optimised soln
   
   https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/
+  
+  Repeated Factorial calculation optimisation  
+  Java locking, synchronization 
+  No of island question is very hot
+  parking lot
+  
+  How will you convert a heap into a doubly linked list?  
+
+How will you recursively reverse a linked list?  
+
+Derive the relation between number of nodes and height of a tree.  
+
+Delete the last k nodes of a linked list. How will you optimize it?  
+
+Given a string of the form AB2C3 and an int k.Expand the string as ABABC3 then ABABCABABCABABC. The task is to find the kth element. You have limited memory so you can not expand the entire string. You just have to find the kth element.  
+
