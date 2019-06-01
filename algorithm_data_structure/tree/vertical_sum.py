@@ -17,9 +17,9 @@ def print_vertical_level(root, cur_depth, level_hash):
         return
 
     if cur_depth in level_hash:
-        level_hash[cur_depth].append((root.data))
+        level_hash[cur_depth] = level_hash[cur_depth] + root.data
     else:
-        level_hash[cur_depth] = [root.data]
+        level_hash[cur_depth] = root.data
 
     print_vertical_level(root.left, cur_depth-1, level_hash)
     print_vertical_level(root.right, cur_depth+1, level_hash)
@@ -35,7 +35,13 @@ root.right.right = Node(7)
 
 level_hash = {}
 print_vertical_level(root, 0, level_hash)
-print level_hash
+
+_min = min(level_hash.keys())
+_max = max(level_hash.keys())
+
+for level in xrange(_min, _max+1):
+    print "%s "%level_hash[level],
+
 #root.right.left.right = Node(8)
 #root.right.right.right = Node(9)
 

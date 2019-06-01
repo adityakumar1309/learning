@@ -14,6 +14,8 @@ def min_time_frame(arr):
     que.append(('#', '#'))
     time_frame = 0
 
+    #import pdb;pdb.set_trace()
+
     while que:
         position = que.popleft()
         if position[0] == '#':
