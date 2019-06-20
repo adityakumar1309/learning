@@ -1,25 +1,25 @@
 ## ALGO DS
-1) Cover all recent questions asked 
+1) (Time: Home) Cover all recent questions asked 
 
-2) Cover possible famous dp questions including pattern matching
+2) (Time: Home) Cover possible famous dp questions including pattern matching
 
-3) Revise few imp question when free in ur mind or office . (max robbery, etc)
+3) (Time: Office) Revise few imp question when free in ur mind or office . (max robbery, etc)
 
 ## Design
-1) In office see L nagendra video and gaurav sen video .
+1) (Time: Office) In office see L nagendra video and gaurav sen video .
 
-2) At home practise few imp design end to end on board . Take it slow and make sure you spend 30-40mins on that design .
+2) (Time: Home) At home practise few imp design end to end on board . Take it slow and make sure you spend 30-40mins on that design .
 
-3) Focus on end to end of a api rather than rushing into it .
+3) (Time: Home) Focus on end to end of a api rather than rushing into it .
 
-## Java
-1) Famous java questions which you had documented last time. like annotations, reflection, print odd, even using thread
+## Java 
+1) (Time: Office) Famous java questions which you had documented last time. like annotations, reflection, print odd, even using thread
 
-2) Thread implementation 
+2) (Time: Office) Thread implementation 
 
 ## Behaviour
-1) Prepare nice answer to toughest problem you have solved . One at tivo and one at ola . 
+1) (Time: Office) Prepare nice answer to toughest problem you have solved . One at tivo and one at ola . 
 
-2) Manager conflict and how you over came him .
+2) (Time: Office) Manager conflict and how you over came him .
 
-3) Why you leaving ola ?
+3) (Time: Office) Why you leaving ola ?
