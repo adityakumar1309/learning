@@ -36,8 +36,10 @@
  ![alt text](https://github.com/adityakumar1309/learning/blob/master/images/Screen%20Shot%202018-10-07%20at%209.53.33%20PM.png)
  
  ## How do we handle Availability ?
-  1) Have Replication factor 2 . (means every node will have 2 other replicas)
-     Advantage of this beside the obvious is loads will also get distributed among replicas . Other replica can act as slave .
+  1) Have Replication factor 
+  
+  2 (means every node will have 2 other replicas)
+  Advantage of this beside the obvious is loads will also get distributed among replicas . Other replica can act as slave .
   
    
  
