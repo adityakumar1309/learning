@@ -1,0 +1,1 @@
+https://techdifferences.com/difference-between-thread-class-and-runnable-interface-in-java.html
