@@ -1,3 +1,6 @@
+![Image description](https://github.com/adityakumar1309/learning/blob/master/images/django_middleware.png)
+
+
 Things to remember when using middleware
 
 ## Order of middlewares is important.
