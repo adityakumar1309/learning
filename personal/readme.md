@@ -1,12 +1,3 @@
-Hi, myself Aditya . I graduated from PES IT college from 2012 . That time i had few other offers but i choose 
-Veveo as it was an startup company . The reason i choose Veveo was just to learn .
-In first 2 years i was part of various projects which involved frontend, backend, android coding etc
-
-After 2 years Veveo was aqcuired by Rovi whose name got changed to Tivo later on .
-So it has been 6yrs plus i have been part of same company . 
-
-->Since aquistion i have been part of data team where my role was deplop 
-APIs
 
 ->Handle millions of data of a client and apply some nlp and data processing and returning them some result
 
@@ -16,7 +7,7 @@ APIs
 Where clients send there huge data and we need to automate or pipeline the whole process to extract the data, apply some nlp and then pass it through our knowledge graph and then load to our in-memory cache ie redis and mysql db
 
 ## Most Challenging
-1) People leaving and proper KT was not arranged and the person who got KT also left (generic Parser)
+1) MemcacheD applocation issues and how did we resolve it . 
 2) Implement Generic Parser
 
 ## Most Difficult Problem
@@ -24,3 +15,6 @@ Where clients send there huge data and we need to automate or pipeline the whole
 		- database tuning
 		- redis layer
 		- sharding of db
+		
+## Interesting problem solved 
+As others mentioned on the thread Bloom filter is a way to quickly tell whether an element does not belong to the set. I last used it when I was crawling a billion pages for building an offline search engine. At that we had four 4 GB RAM machines of which just 2.1 GB was accessible to the Java VM. We were doing an Open Crawl (discovering pages on the fly) and we had to ensure that we do not crawl the same pages again and again. Had we used a hashset with the 8 byte key as hash of URL we would have needed more than 2 Gigs just for this set. So we ended up using Bloom filter for this.
