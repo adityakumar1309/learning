@@ -43,6 +43,13 @@ My System Design Template
         (1) Latency and Throughput requirements
         
         (2) Consistency vs Availability  [Weak/strong/eventual => consistency | Failover/replication => availability]
+	
+	eg: You decide what kind of consistency you want based on your problem statement.
+		For e.g:
+
+		### Strong consistency can be used where data fidelity is of utmost importance - ex: banking transactions
+		### Eventual consistency can be used where you're okay with updates that are delayed by a few seconds - ex: 		        instagram feed
+		### Weak consistency can be used where you don't care about lost updates - ex: in video chats, you don't                           really want to replay whatever was lost in a 2 second connectivity drop
 
 (4) HIGH LEVEL DESIGN [5-10 min]
         
